@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./employee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="empBtn">
+        <input type="button" value="Add Employee" id="addBtn">
+    </div>
+    <div class="entryForm">
+        <div class="nameP">
+            <div class="name">Name*:</div>
+            <input type="text" id="name">
+        </div>
+        <div class="nameFieldErr"></div>
+        <div class="phNoP">
+            <div class="phNo">Ph Number*:</div>
+            <input type="number" id="phNo">
+        </div>
+        <div class="phNoFieldErr"></div>
+        <div class="sexP">
+            <div class="sex">sex:</div>
+            <div class="radioBtn">
+                <input type="radio" value="male" name="sex"id="male">
+                <label for="male">male</label>
+                <input type="radio" value="female" name="sex"id="female">
+                <label for="female">female</label>
+                <input type="radio" value="others" name="sex"id="others">
+                <label for="others">others</label>
+            </div>
+            
+        </div>
+        <div class="addressP">
+            <div class="address">address*:</div>
+            <input type="text" id="address">
+        </div>
+        <div class="addressFieldErr"></div>
+        <div class="profileP">
+            <div class="profile">profile:</div>
+            <input type="url" id="profile">
+        </div>
+        <div class="button">
+            <div class="btn2"><input type="button" value="add" id="btn"></div>
+            <div class="btn3 btnEditTo"><input type="button" value="edit" id="btn1" ></div>
+        </div>
+        <div class="fillFieldErr"></div>
+    </div>
+   
+    <div class="container">
+
+    </div>
+    <script src="./employee.js"></script>
+</body>
+</html>

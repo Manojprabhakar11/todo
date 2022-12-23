@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(240, 248, 231);
+}
+.entryForm{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin: 2%;
+    background-image: linear-gradient(90deg,rgb(252, 239, 253),rgb(247, 231, 231));
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.editOpt{
+    display: none;
+    
+}
+.empBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+#addBtn{
+    padding: 0.5%;
+    background-color: rgb(235, 194, 178);
+    border: none;
+    border-radius: 2px;
+    
+}
+.nameP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.name{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+#name{
+    width: 20%;
+    margin-left: 2%;
+}
+.phNoP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.phNo{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+#phNo{
+    width: 20%;
+    margin-left: 2%;
+}
+.addressP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.address{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+#address{
+    width: 20%;
+    margin-left: 2%;
+}
+.profileP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+#profile{
+    width: 20%;
+    margin-left: 2%;
+}
+.sexP{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+}
+.sexP{
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sex{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+#male{
+    margin-left: 5%;
+}
+.radioBtn{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+}
+.button{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    padding: 5px;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+}
+#btn1{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    padding: 5px;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+}
+.btn2{
+    margin-right: 2%;
+}
+.result{
+    display:inline-grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+    background-image: linear-gradient(90deg,rgb(197, 212, 241),rgb(210, 238, 238));
+    box-shadow: 15px 15px 15px rgb(192, 238, 234);
+    border-radius: 3px;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:5%;
+    margin-top: 5%;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+#btnDel{
+    margin: -25%;
+    padding: 10%;
+    border: 0;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+#editBtn{
+    margin-top:  25%; 
+    padding: 10%;
+    border: 0;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+   
+}
+.nameRes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+}
+.phNoRes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+}
+.sexRes{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+}
+.fillFieldErr{
+    color: red;
+}
+.nameFieldErr{
+    color: red;
+    padding-bottom: 1%;
+}
+.addressFieldErr{
+    color: red;
+    padding-bottom: 1%;
+}
+.phNoFieldErr{
+    color: red;
+    padding-bottom: 1%;
+}
